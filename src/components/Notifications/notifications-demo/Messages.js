@@ -22,7 +22,7 @@ class MessagesDemo extends React.Component {
             <i className="status status-bottom bg-success" />
           </span>
           <time className="text-link help float-right">10 sec ago</time>
-          <h6 className="m-0 fw-bold mb-1">Chris Gray</h6>
+          <h6 className="m-0 fw-bold mb-1">No</h6>
           <p className="deemphasize text-ellipsis m-0">Hey! What&apos;s up? So many times since we</p>
         </ListGroupItem>
         <ListGroupItem className={s.listGroupItem}>
