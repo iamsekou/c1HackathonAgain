@@ -473,10 +473,8 @@ $z-index-variants: (
 
 .input-no-border {
   border: none;
-
   @include transition(background-color ease-in-out 0.15s);
-
-  &:focus {
+  &.focus-state {
     background-color: $gray-100;
   }
 }
@@ -488,11 +486,11 @@ $z-index-variants: (
   .input-group-addon {
     @extend .input-no-border;
   }
-
+  
   .form-control:focus,
   .form-control:focus + .input-group-addon,
   &.focus .input-group-addon {
-    @extend .input-no-border:focus;
+    @extend .focus-state;
   }
 }
 
